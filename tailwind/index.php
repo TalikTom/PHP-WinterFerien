@@ -2,6 +2,11 @@
 
 $heading = 'Home';
 
-$uri = $_SERVER['REQUEST_URI'];
+
+
+function urlIs($value) {
+    return $_SERVER['REQUEST_URI'] === $value;
+}
+
 
 require "views/index.view.php";
