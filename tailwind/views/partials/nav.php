@@ -9,23 +9,24 @@
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="/tailwind" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                        <a href="/tailwind/"
+                            class="<?= $uri === '/tailwind/' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> px-3 py-2 rounded-md text-sm font-medium"
                             aria-current="page">
                             Home
                         </a>
 
                         <a href="/tailwind/about.php"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                            class="<?php echo $uri === '/tailwind/about.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             About
                         </a>
 
                         <a href="/tailwind/calendar.php"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                            class="<?php echo $uri === '/tailwind/calendar.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             Calendar
                         </a>
 
                         <a href="/tailwind/contact.php"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                            class="<?php echo $uri === '/tailwind/contact.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             Contact us
                         </a>
                     </div>
