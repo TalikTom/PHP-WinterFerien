@@ -16,17 +16,17 @@
                         </a>
 
                         <a href="/tailwind/about.php"
-                            class="<?php echo $uri === '/tailwind/about.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                            class="<?= urlIs('/tailwind/about.php') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             About
                         </a>
 
                         <a href="/tailwind/calendar.php"
-                            class="<?php echo $uri === '/tailwind/calendar.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                            class="<?= urlIs('/tailwind/calendar.php') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             Calendar
                         </a>
 
                         <a href="/tailwind/contact.php"
-                            class="<?php echo $uri === '/tailwind/contact.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                            class="<?= urlIs('/tailwind/contact.php') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             Contact us
                         </a>
                     </div>
