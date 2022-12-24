@@ -1,6 +1,7 @@
 <?php require 'partials/header.php'; ?>
 <?php require 'partials/nav.php'; ?>
 
+
 <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
   <ul class="orbit-container">
     <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
