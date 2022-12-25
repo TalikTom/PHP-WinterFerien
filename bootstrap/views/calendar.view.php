@@ -1,6 +1,6 @@
 <?php require 'partials/header.php'; ?>
 <main>
-<body>
+
 
 <?php require 'partials/nav.php'; ?>
 
