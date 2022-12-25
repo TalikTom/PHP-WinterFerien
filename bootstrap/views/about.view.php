@@ -3,6 +3,7 @@
 <body>
 
 <?php require 'partials/nav.php'; ?>
+
      
 
         <div class="dropdown text-end">
@@ -21,5 +22,6 @@
     </div>
   </header>
 </main>
+<?php require 'partials/banner.php'; ?>
 <?php require 'partials/footer.php'; ?>
     

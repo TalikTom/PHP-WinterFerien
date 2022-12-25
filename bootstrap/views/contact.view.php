@@ -3,7 +3,7 @@
 <body>
 
 <?php require 'partials/nav.php'; ?>
-     
+
 
         <div class="dropdown text-end">
           <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -21,5 +21,6 @@
     </div>
   </header>
 </main>
+<?php require 'partials/banner.php'; ?>
 <?php require 'partials/footer.php'; ?>
     
