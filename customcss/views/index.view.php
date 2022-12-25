@@ -1,3 +1,4 @@
 <?php include 'includes/header.php'; ?>
-hello
+<?php include 'includes/banner.php'; ?>
+
 <?php include 'includes/footer.php'; ?>
