@@ -15,9 +15,9 @@
           <li><a href="#0">Three</a></li>
         </ul>
       </li>
-      <li><a href="about.php">Two</a></li>
-      <li><a href="calendar.php">Three</a></li>
-      <li><a href="contact.php">Three</a></li>
+      <li><a href="about.php">About us</a></li>
+      <li><a href="calendar.php">Calendar</a></li>
+      <li><a href="contact.php">Contact us</a></li>
     </ul>
   </div>
   <div class="top-bar-right">
