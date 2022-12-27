@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /tailwind/
+RewriteRule ^index\.php＄ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /tailwind/index.php [L]

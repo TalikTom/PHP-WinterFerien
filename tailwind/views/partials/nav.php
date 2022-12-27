@@ -15,18 +15,18 @@
                             Home
                         </a>
 
-                        <a href="/tailwind/about.php"
-                            class="<?= urlIs('/tailwind/about.php') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="/tailwind/about"
+                            class="<?= urlIs('/tailwind/about') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             About
                         </a>
 
-                        <a href="/tailwind/calendar.php"
-                            class="<?= urlIs('/tailwind/calendar.php') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="/tailwind/calendar"
+                            class="<?= urlIs('/tailwind/calendar') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             Calendar
                         </a>
 
-                        <a href="/tailwind/contact.php"
-                            class="<?= urlIs('/tailwind/contact.php') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <a href="/tailwind/contact"
+                            class="<?= urlIs('/tailwind/contact') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                             Contact us
                         </a>
                     </div>
