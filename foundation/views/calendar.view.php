@@ -4,4 +4,3 @@
 
 
 <?php require 'partials/footer.php'; ?>
-
