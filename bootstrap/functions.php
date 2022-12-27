@@ -7,11 +7,10 @@ function urlIs($value)
 
 function dd($x)
 {
-echo '<pre>';
-var_dump($x);
-echo '</pre>';
-die;
-
+    echo '<pre>';
+    var_dump($x);
+    echo '</pre>';
+    die;
 }
 
 ?>
