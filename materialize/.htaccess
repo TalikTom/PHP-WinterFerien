@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /materialize/
+RewriteRule ^index\.php＄ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /materialize/index.php [L]
