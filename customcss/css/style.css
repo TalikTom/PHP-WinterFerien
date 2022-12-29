@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 *,
 *::before,
@@ -14,4 +16,12 @@ img {
 .nav-container {
     display: flex;
     list-style: none;
+}
+
+.box {
+    background-color: red;
+    padding: 20px;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
 }
