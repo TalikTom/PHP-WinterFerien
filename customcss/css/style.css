@@ -9,8 +9,10 @@ html {
     box-sizing: inherit;
 }
 
-img {
+img,
+picture {
     height: auto;
+    width: 100%;
 }
 
 section {
