@@ -15,8 +15,44 @@ picture {
     width: 100%;
 }
 
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header,
+.intro,
+footer {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))
+            no-repeat fixed,
+        url(/customcss/img/hosp.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #f9faf8;
+}
+
+.header,
+.intro {
+    display: flex;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 15%;
+}
+
+.intro {
+    height: 50vh;
+}
+
 section {
     padding: 30px;
+    background-color: rgb(145, 155, 162);
 }
 
 .nav-container {
@@ -27,7 +63,7 @@ section {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 2rem;
-    background-color: rgb(34, 34, 34);
+
     padding: 30px;
     width: 100%;
 }
@@ -135,32 +171,9 @@ section > * {
     margin: 0 auto;
 }
 
-.flex-con {
-    display: flex;
-    padding: 20px;
-    border: solid 1px red;
-    background-color: beige;
-    justify-content: center;
-    width: 500px;
-    margin: 0 auto;
-}
-
-.box-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.box {
-    background-color: aquamarine;
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
-    margin: 10px;
-}
-.mini-box {
-    background-color: aquamarine;
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    margin: 10px;
+footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
 }

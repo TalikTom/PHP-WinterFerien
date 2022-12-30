@@ -1,4 +1,4 @@
-<nav class="main-nav">
+<nav class="header">
     <ul class="nav-container">
         <li><a href="/customcss/">Home</a></li>
         <li><a href="/customcss/about">About us</a></li>
