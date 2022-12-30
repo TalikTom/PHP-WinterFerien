@@ -1,8 +1,9 @@
 <nav class="main-nav">
     <ul class="nav-container">
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>About us</li>
-        <li><a href="#"></a>Calendar</li>
-        <li><a href="#"></a>Contact us</li>
+        <li><a href="/customcss/">Home</a></li>
+        <li><a href="/customcss/about">About us</a></li>
+        <li><a href="/customcss/calendar">Calendar</a></li>
+        <li><a href="/customcss/contact">Contact us</a></li>
     </ul>
+
 </nav>
