@@ -184,10 +184,11 @@ section > * {
 .grid-wrapper {
     display: grid;
     grid-template-columns: 50% 25% 25%;
+    width: 100vw;
 }
 
 .card:nth-child(1) {
-    background: #0057b8;
+    background: #5a5b5c;
     color: #fff;
     fill: #fff;
     grid-column: 1;
@@ -201,7 +202,7 @@ section > * {
     grid-column: 2 / span 2;
 }
 .card:nth-child(3) {
-    background: #000;
+    background: rgb(208, 234, 237);
     color: #fff;
     fill: #fff;
     grid-column: 2;
@@ -210,7 +211,7 @@ section > * {
 
 .card:nth-child(4) {
     aspect-ratio: 1;
-    background: #9cdbd9;
+    background: #202020;
     color: #000;
     grid-column: 3;
     grid-row: 2;
