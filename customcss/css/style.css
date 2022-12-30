@@ -166,6 +166,63 @@ section > * {
     flex-basis: 100%;
 }
 
+.quote {
+    padding: 80px 35%;
+    background: url(/customcss/img/hosp2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #ffffff;
+    text-shadow: 0 0 1px #2c2c2c, 0 0 15px #292929;
+}
+
+.quote p {
+    mix-blend-mode: luminosity;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.card:nth-child(1) {
+    background: #0057b8;
+    color: #fff;
+    fill: #fff;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.card:nth-child(2) {
+    aspect-ratio: 2;
+    background: #e6e6e6;
+    color: #000;
+    grid-column: 2 / span 2;
+}
+.card:nth-child(3) {
+    background: #000;
+    color: #fff;
+    fill: #fff;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.card:nth-child(4) {
+    aspect-ratio: 1;
+    background: #9cdbd9;
+    color: #000;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.author {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .flex-wrapper {
     width: 600px;
     margin: 0 auto;
