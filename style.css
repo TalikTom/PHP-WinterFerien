@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img,
+picture {
+    height: auto;
+    width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))
+            no-repeat fixed,
+        url(back.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #f9faf8;
+}

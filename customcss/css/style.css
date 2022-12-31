@@ -1,4 +1,4 @@
-html {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,19 +15,17 @@ picture {
     width: 100%;
 }
 
-.wrapper {
+.main {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    margin: 0px;
 }
 
 .header,
 .intro,
-footer {
+.grid-background {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))
             no-repeat fixed,
         url(/customcss/img/hosp.jpg) no-repeat center center fixed;
@@ -38,7 +36,6 @@ footer {
 .header,
 .intro {
     display: flex;
-    width: 100%;
     align-self: stretch;
     align-items: center;
     justify-content: space-around;
@@ -48,8 +45,14 @@ footer {
 
 .intro {
     height: 50vh;
+    padding: 32px;
 }
 
+@media (max-width: 650px) {
+    .intro-text {
+        text-align: center;
+    }
+}
 .nav-container {
     display: flex;
     list-style: none;
@@ -60,7 +63,6 @@ footer {
     gap: 2rem;
 
     padding: 30px;
-    width: 100%;
 }
 
 @media (max-width: 400px) {
@@ -87,7 +89,6 @@ footer {
 
 @media (max-width: 400px) {
     .nav-container li {
-        border-bottom: 1px solid white;
         display: block;
         padding: 30px;
     }
@@ -102,6 +103,7 @@ html,
 body {
     position: relative;
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -149,7 +151,6 @@ section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 100vw;
     padding: 32px;
 }
 
@@ -172,7 +173,6 @@ section > * {
     font-style: italic;
     color: #ffffff;
     text-shadow: 0 0 1px #2c2c2c, 0 0 15px #292929;
-    width: 100vw;
 }
 
 .quote p {
@@ -182,9 +182,9 @@ section > * {
 .grid-wrapper {
     display: grid;
     grid-template-columns: 50% 25% 25%;
-    width: 100vw;
     padding-left: 0;
     padding-right: 0;
+    margin: 0 auto;
 }
 
 @media (max-width: 1055px) {
@@ -195,10 +195,17 @@ section > * {
 
 .card {
     padding: 32px;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(1rem);
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 .card:nth-child(1) {
-    background: #5a5b5c;
     color: #fff;
     fill: #fff;
     grid-column: 1;
@@ -266,7 +273,8 @@ section > * {
 
 footer {
     display: block;
-    width: 100%;
     text-align: center;
     padding: 24px 0px;
+    background-color: #1d1d1d;
+    color: white;
 }

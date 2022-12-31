@@ -1,14 +1,16 @@
-<div class="grid-wrapper">
-    <div class="card">Lorem ipsum dolor sit amet.
-        <p></p>
-    </div>
-    <div class="card">Lorem ipsum dolor sit amet.
-        <p></p>
-    </div>
-    <div class="card">Lorem ipsum dolor sit amet.
-        <p></p>
-    </div>
-    <div class="card">Lorem ipsum dolor sit amet.
-        <p></p>
+<div class="grid-background">
+    <div class="grid-wrapper">
+        <div class="card">Lorem ipsum dolor sit amet.
+            <p></p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet.
+            <p></p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet.
+            <p></p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet.
+            <p></p>
+        </div>
     </div>
 </div>
