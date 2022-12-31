@@ -15,7 +15,13 @@ picture {
     width: 100%;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .wrapper {
+    text-align: center;
+
     display: grid;
     place-items: center;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3))
@@ -23,4 +29,54 @@ picture {
         url(back.jpg) no-repeat center center fixed;
     background-size: cover;
     color: #f9faf8;
+    height: 100vh;
+}
+
+h1 {
+    padding: 30px;
+    margin: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    background-image: linear-gradient(
+        to right,
+        #54b3d6,
+        #54b3d6 50%,
+        rgb(255, 255, 255) 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+a:before {
+    content: "";
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-position: 0;
+}
+
+a:hover::before {
+    width: 100%;
 }
