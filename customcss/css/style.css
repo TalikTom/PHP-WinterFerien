@@ -61,15 +61,28 @@ picture {
     width: 100vw;
 }
 
+@media (max-width: 450px) {
+    .intro {
+        height: 30vh;
+    }
+}
+
 .intro-text h1 {
     padding-bottom: 30px;
     font-size: 3rem;
 }
 
+@media (max-width: 800px) {
+    .intro-text {
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
 @media (max-width: 650px) {
     .intro-text {
         text-align: center;
-        padding: 30px;
+        padding: 0 30px;
     }
     .intro-text h1 {
         font-size: 2rem;
@@ -277,6 +290,14 @@ section > * {
     }
 }
 
+@media (max-width: 450px) {
+    .grid-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .card {
     padding: 32px;
     background: linear-gradient(
@@ -301,6 +322,12 @@ section > * {
     }
 }
 
+@media (max-width: 450px) {
+    .card:nth-child(1) {
+        aspect-ratio: 0;
+    }
+}
+
 .card:nth-child(2) {
     aspect-ratio: 2;
     background: #e6e6e6;
@@ -312,6 +339,11 @@ section > * {
     .card:nth-child(2) {
         aspect-ratio: 1;
         grid-column: 2;
+    }
+}
+@media (max-width: 450px) {
+    .card:nth-child(2) {
+        aspect-ratio: 0;
     }
 }
 
@@ -328,6 +360,11 @@ section > * {
         grid-column: 1;
     }
 }
+@media (max-width: 450px) {
+    .card:nth-child(3) {
+        aspect-ratio: 0;
+    }
+}
 
 .card:nth-child(4) {
     aspect-ratio: 1;
@@ -340,6 +377,11 @@ section > * {
 @media (max-width: 1055px) {
     .card:nth-child(4) {
         grid-column: 2;
+    }
+}
+@media (max-width: 450px) {
+    .card:nth-child(4) {
+        aspect-ratio: 0;
     }
 }
 
