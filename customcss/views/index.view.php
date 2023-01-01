@@ -1,12 +1,8 @@
-<?php include 'partials/header.php'; ?>
-<?php include 'partials/nav.php'; ?>
-<?php include 'partials/content.php'; ?>
-<?php include 'partials/grid_content.php'; ?>
+<?php include 'partials/header.php';?>
+<?php include 'partials/nav.php';?>
+<?php include 'partials/content.php';?>
+<?php include 'partials/grid_content.php';?>
 
-<div class="quote">
-    <p>The future of the hospital system is here in Ponkovci.</p>
-    <p class="author">-Slavoljub Penkala</p>
-</div>
 <section>
     <article>
         <h2>First article</h2>
@@ -40,4 +36,4 @@
     </article>
 </section>
 
-<?php include 'partials/footer.php'; ?>
+<?php include 'partials/footer.php';?>
