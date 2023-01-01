@@ -9,14 +9,15 @@
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="/bootstrap/"
-                        class="nav-link px-2 link-<?= urlIs('/bootstrap/') ? 'secondary' : 'dark' ?>">Home</a></li>
+                        class="nav-link px-2 link-<?=urlIs('/bootstrap/') ? 'secondary' : 'dark'?>">Home</a></li>
                 <li><a href="/bootstrap/about"
-                        class="nav-link px-2 link-<?= urlIs('/bootstrap/about') ? 'secondary' : 'dark' ?>">About
+                        class="nav-link px-2 link-<?=urlIs('/bootstrap/about') ? 'secondary' : 'dark'?>">About
                         us</a></li>
                 <li><a href="/bootstrap/calendar"
-                        class="nav-link px-2 link-<?= urlIs('/bootstrap/calendar') ? 'secondary' : 'dark' ?>">Calendar</a>
+                        class="nav-link px-2 link-<?=urlIs('/bootstrap/calendar') ? 'secondary' : 'dark'?>">Calendar</a>
                 </li>
                 <li><a href="/bootstrap/contact"
-                        class="nav-link px-2 link-<?= urlIs('/bootstrap/contact') ? 'secondary' : 'dark' ?>">Contact
+                        class="nav-link px-2 link-<?=urlIs('/bootstrap/contact') ? 'secondary' : 'dark'?>">Contact
                         us</a></li>
+
             </ul>

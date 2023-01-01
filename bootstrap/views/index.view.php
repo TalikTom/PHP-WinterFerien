@@ -1,9 +1,9 @@
-<?php require 'partials/header.php'; ?>
+<?php require 'partials/header.php';?>
 <main>
 
 
 
-    <?php require 'partials/nav.php'; ?>
+    <?php require 'partials/nav.php';?>
 
 
     <div class="dropdown text-end">
@@ -25,6 +25,6 @@
     </div>
     </header>
 </main>
-<?php require 'partials/banner.php'; ?>
+<?php require 'partials/banner.php';?>
 home
-<?php require 'partials/footer.php'; ?>
+<?php require 'partials/footer.php';?>
