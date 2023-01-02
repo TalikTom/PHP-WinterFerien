@@ -4,13 +4,11 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-document.addEventListener("DOMContentLoaded", function () {
-    var elems = document.querySelectorAll(".carousel");
-    var instances = M.Carousel.init(elems, options);
-});
-
 $(document).ready(function () {
+    $(".dropdown-trigger").dropdown();
     $(".carousel").carousel();
+    $(".collapsible").collapsible();
+    $(".sidenav").sidenav();
 });
 var _get = function get(object, property, receiver) {
     if (object === null) object = Function.prototype;
