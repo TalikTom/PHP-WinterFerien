@@ -3,10 +3,14 @@
 
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="/materialize/">Home</a></li>
-            <li><a href="./about">About us</a></li>
-            <li><a href="/materialize/calendar">Calendar</a></li>
-            <li><a href="./contact">Contact us</a></li>
+            <li><a href="/materialize/" class="<?= urlIs('/materialize/') ? 'blue-text text-darken-2' : ''; ?>">Home</a>
+            </li>
+            <li><a href="./about" class="<?= urlIs('/materialize/about') ? 'blue-text text-darken-2' : ''; ?>">About
+                    us</a></li>
+            <li><a href="./calendar"
+                    class="<?= urlIs('/materialize/calendar') ? 'blue-text text-darken-2' : ''; ?>">Calendar</a></li>
+            <li><a href="./contact"
+                    class="<?= urlIs('/materialize/contact') ? 'blue-text text-darken-2' : ''; ?>">Contact us</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
             <!-- Dropdown Trigger -->
