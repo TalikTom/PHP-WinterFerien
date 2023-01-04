@@ -21,6 +21,21 @@ a {
     text-shadow: rgb(28, 28, 28) 1px 0 10px;
 }
 
+h1 {
+    padding: 40px 0 0 0;
+}
+h2 {
+    padding: 30px 0;
+}
+
+.about-content {
+    padding: 40px;
+}
+
+.about-wrapper {
+    text-align: center;
+}
+
 img,
 picture {
     height: auto;
