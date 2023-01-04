@@ -24,6 +24,7 @@
     </div>
     </header>
 </main>
-<?php require 'partials/banner.php'; ?>
-calendar
+calendar goes here
+
+
 <?php require 'partials/footer.php'; ?>

@@ -13,4 +13,6 @@ function dd($x)
     die;
 }
 
+$year = date('Y');
+
 ?>

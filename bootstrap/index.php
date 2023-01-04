@@ -23,6 +23,5 @@ if (array_key_exists($uri, $routes))
     
 }
 
-dd($uri);
 
 ?>
