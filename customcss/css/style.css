@@ -413,4 +413,22 @@ footer {
     color: white;
 }
 
+.contact-wrapper {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+@media (max-width: 720px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+}
+
+.cf {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 /* contact form start */
