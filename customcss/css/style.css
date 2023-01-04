@@ -413,22 +413,32 @@ footer {
     color: white;
 }
 
-.contact-wrapper {
+.map-responsive {
     display: flex;
-    gap: 1rem;
-    padding: 2rem;
-}
-
-@media (max-width: 720px) {
-    .contact-wrapper {
-        flex-direction: column;
-    }
-}
-
-.cf {
-    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 30px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 20px 0 12px 0;
+}
+
+.row_contact {
+    display: flex;
     gap: 1rem;
 }
 
-/* contact form start */
+#map {
+    width: 100%;
+    height: 300px;
+}

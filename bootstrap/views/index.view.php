@@ -27,7 +27,7 @@
 </main>
 <?php require 'partials/banner.php';?>
 <div class="container">
-    <div class="row mt-4">
+    <div class="row mt-4 mb-4">
         <div class="col-sm">
             <h3>Lorem</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quidem sint explicabo laudantium,
