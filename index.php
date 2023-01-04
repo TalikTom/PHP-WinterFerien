@@ -4,7 +4,7 @@
 
 <nav class="wrapper">
     <div class="content-wrapper">
-        <h1>Zadatak</h1>
+        <h1>Zadatak - L.A.</h1>
         <ul class="nav-container">
             <li><a href="/customcss">customcss</a></li>
             <li><a href="/bootstrap">bootstrap</a></li>
