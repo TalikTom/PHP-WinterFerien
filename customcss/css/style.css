@@ -453,6 +453,7 @@ form {
 .link_container ul li {
     padding: 0.5rem 0;
     list-style: none;
+
 }
 
 @media (max-width: 650px) {
@@ -462,5 +463,17 @@ form {
 }
 
 .link_container ul li a:hover {
-    color: red;
+    transition: color 0.1s ease-out 100ms;
+    color: #78a3f7;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.icon:hover {
+    background-color: red;
+    filter: hue-rotate(180deg);
 }
