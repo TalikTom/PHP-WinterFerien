@@ -6,3 +6,15 @@
     gap: 1rem;
     bottom: 10px;
 }
+
+ul {
+    list-style-type:none;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #202020;
+    color: white;
+}
