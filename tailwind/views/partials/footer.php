@@ -11,7 +11,8 @@
             <span class="sr-only">Dribbbel account</span>
         </a>
     </div>
-    <div class="md:flex md:justify-between">
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="md:flex md:justify-center">
 
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -43,14 +44,14 @@
                         <a href="#" class="hover:underline">Link1</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline">Link2 &amp; Link2</a>
+                        <a href="#" class="hover:underline">Link2</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <div class="sm:flex sm:items-center sm:justify-between align-content-center">
+    <div class="sm:flex sm:items-center sm:justify-center">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">LA™</a>
         </span>
 
