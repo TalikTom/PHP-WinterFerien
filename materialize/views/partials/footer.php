@@ -24,7 +24,7 @@
     </div>
     <div class="footer-copyright center-align">
         <div class="container">
-            © 2014 Copyright Text
+            © <?= $year ?> LA
         </div>
     </div>
 </footer>

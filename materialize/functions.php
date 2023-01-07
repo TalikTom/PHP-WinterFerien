@@ -11,3 +11,5 @@ function dd($x)
     echo '</pre>';
     die;
 }
+
+$year = date('Y');
