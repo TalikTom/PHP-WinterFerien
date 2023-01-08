@@ -16,11 +16,13 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email">
             </div>
+
             <label for="subject">Your subject:</label>
             <input type="text" name="subject" id="subject">
             <label for="message">Your message:</label>
             <input type="textarea" name="message" id="message">
             <input type="submit" value="Save">
+
         </form>
         <div class="box"></div>
 
