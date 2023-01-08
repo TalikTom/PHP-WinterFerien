@@ -502,7 +502,6 @@ input[type=submit] {
 .row_contact {
     display: flex;
     align-items: center;
-    width: 100%;
 }
 
 @media (max-width: 720px) {
