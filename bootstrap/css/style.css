@@ -1,3 +1,7 @@
 .dropdown-toggle::after {
     color: white;
 }
+
+img {
+    width: 100%;
+}
