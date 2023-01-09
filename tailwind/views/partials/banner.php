@@ -9,15 +9,27 @@
     </div>
     <div class="carousel-inner relative w-full overflow-hidden">
         <div class="carousel-item active relative float-left w-full">
-            <img src="/tailwind/img/image1.jpg" class="block w-full" alt="..." />
+            <picture>
+                <source media="(max-width:650px)" srcset="/tailwind/img/image1-650.jpg">
+                <source media="(max-width:450px)" srcset="/tailwind/img/image1-450.jpg">
+                <img src="/tailwind/img/image1.jpg" alt="Elder care">
+            </picture>
 
         </div>
         <div class="carousel-item relative float-left w-full">
-            <img src="/tailwind/img/image2.jpg" class="block w-full" alt="..." />
+            <picture>
+                <source media="(max-width:650px)" srcset="/tailwind/img/image2-650.jpg">
+                <source media="(max-width:450px)" srcset="/tailwind/img/image2-450.jpg">
+                <img src="/tailwind/img/image2.jpg" alt="Elder care">
+            </picture>
 
         </div>
         <div class="carousel-item relative float-left w-full">
-            <img src="/tailwind/img/image3.jpg" class="block w-full" alt="..." />
+            <picture>
+                <source media="(max-width:650px)" srcset="/tailwind/img/image3-650.jpg">
+                <source media="(max-width:450px)" srcset="/tailwind/img/image3-450.jpg">
+                <img src="/tailwind/img/image3.jpg" alt="Elder care">
+            </picture>
 
         </div>
     </div>
