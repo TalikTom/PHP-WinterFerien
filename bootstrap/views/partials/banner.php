@@ -6,13 +6,25 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/bootstrap/img/image1.jpg" class="d-block w-100" alt="...">
+        <picture>
+            <source media="(max-width:650px)" srcset="/bootstrap/img/image1-650.jpg">
+            <source media="(max-width:450px)" srcset="/bootstrap/img/image1-450.jpg">
+            <img src="/bootstrap/img/image1.jpg" alt="Elder care">
+        </picture>
     </div>
     <div class="carousel-item">
-      <img src="/bootstrap/img/image2.jpg" class="d-block w-100" alt="...">
+        <picture>
+            <source media="(max-width:650px)" srcset="/bootstrap/img/image2-650.jpg">
+            <source media="(max-width:450px)" srcset="/bootstrap/img/image2-450.jpg">
+            <img src="/bootstrap/img/image2.jpg" alt="Elder care">
+        </picture>
     </div>
     <div class="carousel-item">
-      <img src="/bootstrap/img/image3.jpg" class="d-block w-100" alt="...">
+        <picture>
+            <source media="(max-width:650px)" srcset="/bootstrap/img/image3-650.jpg">
+            <source media="(max-width:450px)" srcset="/bootstrap/img/image3-450.jpg">
+            <img src="/bootstrap/img/image3.jpg" alt="Elder care">
+        </picture>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
