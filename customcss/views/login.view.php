@@ -4,7 +4,7 @@
 <?php
 
 if ($login) {
-    header('Location: /');
+    header('Location: /customcss');
     exit;
 }
 if($_SERVER['REQUEST_METHOD'] == 'POST') {

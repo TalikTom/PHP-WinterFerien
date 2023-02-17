@@ -9,7 +9,8 @@ $routes =
         '/customcss/calendar' => 'controllers/calendar.php',
         '/customcss/contact' => 'controllers/contact.php',
         '/customcss/login' => 'controllers/login.php',
-        '/customcss/protected' => 'controllers/protected.php'
+        '/customcss/protected' => 'controllers/protected.php',
+        '/customcss/logout' => 'controllers/logout.php'
 
     ];
 
