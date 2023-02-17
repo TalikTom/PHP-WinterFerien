@@ -8,12 +8,15 @@ $routes =
         '/customcss/about' => 'controllers/about.php',
         '/customcss/calendar' => 'controllers/calendar.php',
         '/customcss/contact' => 'controllers/contact.php',
-        '/customcss/login' => 'controllers/login.php'
+        '/customcss/login' => 'controllers/login.php',
+        '/customcss/protected' => 'controllers/protected.php'
+
     ];
 
 if (array_key_exists($uri, $routes)) 
 {
     require $routes[$uri];
+
 } else {
     http_response_code(404);
 

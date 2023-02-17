@@ -5,7 +5,7 @@ session_start();
 $login = $_SESSION['login'] ?? false;
 
 $email = 'test@gmail.com';
-$passwod = 'root';
+$password = 'root';
 
 function login()
 {
