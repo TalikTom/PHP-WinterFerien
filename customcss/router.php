@@ -8,6 +8,7 @@ $routes =
         '/customcss/about' => 'controllers/about.php',
         '/customcss/calendar' => 'controllers/calendar.php',
         '/customcss/contact' => 'controllers/contact.php',
+        '/customcss/login' => 'controllers/login.php'
     ];
 
 if (array_key_exists($uri, $routes)) 

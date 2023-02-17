@@ -4,6 +4,7 @@
         <li><a href="/customcss/about">About us</a></li>
         <li><a href="/customcss/calendar">Calendar</a></li>
         <li><a href="/customcss/contact">Contact us</a></li>
+        <?= $login ? '<li><a href="/customcss/logout">Log out</a></li>' : '<li><a href="/customcss/login">Log in</a></li>' ?>
     </ul>
 
 </nav>
