@@ -27,7 +27,7 @@ function logout()
 function require_login($login)
 {
     if ($login == false) {
-        header('Location: login.php');
+        header('Location: /customcss/login');
         exit;
     }
 }
