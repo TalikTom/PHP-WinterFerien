@@ -1,8 +1,20 @@
 <?php include 'partials/header.php'; ?>
 <?php include 'partials/nav.php'; ?>
 
+
 <?= $post['title'] . '<br>' ?>
 <?= $post['body'] ?>
+
+
+
+<?php foreach ($post as $p) { ?>
+    <p>
+        <?= $post['title'] ?>
+    </p>
+
+<?php } ?>
+
+
     <div class="map-responsive">
 
         <iframe id="map"
