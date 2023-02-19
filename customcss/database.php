@@ -18,7 +18,7 @@ $options = [
 $dsn = "$type:host=$server;dbname=$db;port=$port;charset=$charset";
 
 try {
-    $pdo = new PDO($dsn, $username, $password, $options);
+    $pdo = new PDO($dsn, $username, '', $options);
 } catch (PDOException $e) {
     throw new PDOException($e->getMessage(), $e->getCode());
 }

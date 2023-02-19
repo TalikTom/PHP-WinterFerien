@@ -1,7 +1,8 @@
 <?php include 'partials/header.php'; ?>
 <?php include 'partials/nav.php'; ?>
 
-
+<?= $post['title'] . '<br>' ?>
+<?= $post['body'] ?>
     <div class="map-responsive">
 
         <iframe id="map"

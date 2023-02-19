@@ -1,5 +1,5 @@
 drop database if exists bolnica;
-create database bolnica charset utf8mb4;
+create database bolnica utf8mb4;
 use bolnica;
 
 create table odjel (
