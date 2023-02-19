@@ -2,8 +2,11 @@
 <?php include 'partials/nav.php'; ?>
 
 
+
 <?= $post['title'] . '<br>' ?>
 <?= $post['body'] ?>
+
+
 
 
 
@@ -22,6 +25,16 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         <h1>Contact us</h1>
+        <form action="/customcss/contact" method="POST">
+            <label for="title">Name:</label>
+            <input type="text" name="title" id="title">
+            <label for="body">Text</label>
+            <input type="text" name="body" id="body">
+            <label for="author_id">id</label>
+            <input type="text" name="author_id" id="author_id">
+            <input type="submit">Submit
+
+        </form>
         <form action="/customcss/contact" method="POST">
             <div class="row_contact">
                 <label for="name">Name:</label>
