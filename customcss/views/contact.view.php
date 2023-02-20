@@ -2,20 +2,14 @@
 <?php include 'partials/nav.php'; ?>
 
 
-
-<?= $post['title'] . '<br>' ?>
-<?= $post['body'] ?>
-
-
-
-
-
 <?php foreach ($post as $p) { ?>
     <p>
-        <?= $post['title'] ?>
+        <?= $p['title'] ?>
     </p>
 
 <?php } ?>
+
+<?= $post2['title']; ?>
 
 
     <div class="map-responsive">
