@@ -29,4 +29,7 @@ $post2 = $statement2->fetch();
 
 
 
+
+
+
 require 'views/contact.view.php';

@@ -11,6 +11,27 @@
 
 <?= $post2['title']; ?>
 
+<?php
+
+
+$sql3 = 'insert into 
+          author(name) 
+          values ';
+for($i=0; $i<20000;$i++){
+    $sql3 .= '(\'Author ' . $i . '\'),';
+}
+//echo $sql;
+// makni zadnji zarez
+$sql3 = substr($sql3,0,strlen($sql3)-1);
+
+
+$statement3= $pdo->prepare($sql3);
+
+$statement3->execute();
+
+
+?>
+
 
     <div class="map-responsive">
 
