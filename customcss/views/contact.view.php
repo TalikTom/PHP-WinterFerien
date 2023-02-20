@@ -3,22 +3,25 @@
 
 
 <?php foreach ($post as $p) { ?>
-    <p>
+    <p id="<?= $p['post_id'] ?>">
         <?= $p['title'] ?>
+
     </p>
 
 <?php } ?>
 
 <?= $post2['title']; ?>
 
+<?= '------------' ?>
+<?= $author['name']; ?>
+<?= '------------' ?>
+
 <?php
 
 
-$sql3 = 'insert into 
-          author(name) 
-          values ';
-for($i=0; $i<20000;$i++){
-    $sql3 .= '(\'Author ' . $i . '\'),';
+$sql3 = "insert into author(name) values ";
+for ($i = 0; $i < 20000; $i++) {
+    $sql3 .= "(\"Author $i\"),";
 }
 //echo $sql;
 // makni zadnji zarez

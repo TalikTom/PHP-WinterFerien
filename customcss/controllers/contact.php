@@ -14,7 +14,7 @@ values (:title,:body,:author_id);
 
 }
 
-$sql = "Select title from post where author_id = 1;";
+$sql = "Select * from post";
 
 $statement = $pdo->query($sql);
 
@@ -28,7 +28,9 @@ $statement2->execute(['id' => $id]);
 $post2 = $statement2->fetch();
 
 
+$sql4 = "Select * from author where author_id = :id";
 
+$author = pdo($pdo, $sql4, ['id' => $id])->fetch();
 
 
 
